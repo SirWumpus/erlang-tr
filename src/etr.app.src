@@ -1,0 +1,9 @@
+{application,etr,
+             [{pkg_name,"etr"},
+              {vsn,"1.0.0"},
+              {description,"Erlang version of tr(1)"},
+              {links,[{"Github","https://github.com/SirWumpus/erlang-tr"}]},
+              {applications,[kernel,stdlib,ebs,egetopt]},
+              {licenses,["MIT"]},
+              {modules,[etr]},
+              {files,["README.md","makefile","rebar.config","src","test"]}]}.
